@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parqueadero Autos Colombia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #34495e;
+      padding: 10px;
+    }
+    nav button {
+      background-color: #2980b9;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      margin: 0 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    nav button:hover {
+      background-color: #3498db;
+    }
+    #contenedor {
+      padding: 20px;
+      margin-top: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #34495e;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Parqueadero Autos Colombia</h1>
+    <p>Gestión de Vehículos, Usuarios, Celdas y Pagos</p>
+  </header>
+
+  <nav>
+    <button id="btnUsuarios">Usuarios</button>
+    <button id="btnVehiculos">Vehículos</button>
+    <button id="btnCeldas">Celdas</button>
+    <button id="btnPagos">Pagos</button>
+  </nav>
+
+  <div id="contenedor">
+    <h2>Bienvenido al sistema de gestión del parqueadero</h2>
+    <p>Seleccione una opción del menú para ver los datos correspondientes.</p>
+  </div>
+
+  <script src="datos.js"></script>
+</body>
+</html>
+
